@@ -1,36 +1,67 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-const styles = {
-    navStyle: { top: 0, display: "flex", width: "100%", justifyContent: "space-around", paddingTop: 20, marginBottom: 50 },
-    listStyle: {},
-    linkStyle: {
-        textDecoration: "none",
-        border: "2px solid pink",
-        color: "green",
-        fontWeight: "bold",
-        padding: 5,
-    },
-    activeStyle: {
-        backgroundColor: "magenta",
-        color: "white"
-    }
-}
 
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                <nav style={styles.navStyle} >
-                    <NavLink exact to="/" style={styles.linkStyle} activeStyle={styles.activeStyle}>Home</NavLink>
-                    <NavLink to="/gifts" style={styles.linkStyle} activeStyle={styles.activeStyle}>Gifts</NavLink>
-                    <NavLink to="/art" style={styles.linkStyle} activeStyle={styles.activeStyle}>Art</NavLink>
-                    <NavLink to="/homeware" style={styles.linkStyle} activeStyle={styles.activeStyle}>Homeware</NavLink>
-                    <NavLink to="/contact" style={styles.linkStyle} activeStyle={styles.activeStyle}>Contact Us</NavLink>
-                    <NavLink to="/about" style={styles.linkStyle} activeStyle={styles.activeStyle}>About</NavLink>
-                </nav>
-            </div>
+
+            <nav className="navbar navbar-toggleable-md navbar-light bg-faded fixedtotop">
+                <button
+                    style={{ top: "1rem" }}
+                    className="navbar-toggler navbar-toggler-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span className="navbar-toggler-icon" />
+                </button>
+                <NavLink
+                    style={{ alignSelf: "center" }}
+                    className="navbar-brand"
+                    to="/"
+                >
+                    Canvas
+            </NavLink>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <NavLink className="nav-link" exact to="/">
+                                Home <span className="sr-only">(current)</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <a
+                                className="nav-link"
+                                data-toggle="collapse"
+                                data-target="#storeCollapse"
+                            >
+                                Shop<span className="fa fa-caret-down" aria-hidden="true" />
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/about">
+                                About
+                  </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/contact">
+                                Contact Us
+                             </NavLink>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
         )
     }
 
 }
+
+
+
+
+
