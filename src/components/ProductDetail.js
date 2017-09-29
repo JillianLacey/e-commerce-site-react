@@ -11,7 +11,7 @@ export default class ProductDetail extends Component {
         return (
             <div>
                 <Link className="btn btn-large btn-danger" to="/">Back To Home</Link>
-                <img src={product.productImg} />
+                <img src={product.fullSizeImg} />
                 <p>{product.productTitle}</p>
                 <p>{product.productDescription}</p>
                 <p>{product.price}</p>

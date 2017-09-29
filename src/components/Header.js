@@ -6,7 +6,7 @@ export default class Header extends Component {
     render() {
         return (
 
-            <nav className="navbar navbar-toggleable-md navbar-light bg-faded fixedtotop">
+            <nav className="navbar navbar-toggleable-md navbar-light bg-faded navbar-default  navbar-fixed-top">
                 <button
                     style={{ top: "1rem" }}
                     className="navbar-toggler navbar-toggler-left"

@@ -11,7 +11,7 @@ export default class SubHeader extends Component {
                                 <NavLink className="nav-link secNavLink" exact to="/art">Art</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link secNavLink" to="/gifts">Gifts</NavLink>
+                                <NavLink className="nav-link secNavLink" to="/tableware">Kitchen & Dining</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link secNavLink" to="/homeware">Homeware</NavLink>

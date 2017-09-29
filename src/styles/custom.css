@@ -6,7 +6,8 @@
 .container {
     width: 100%;
     padding: 0;
-    margin: 0;
+    /* margin: 0; */
+    margin-bottom: 80px;
 }
 
 .hero {
@@ -45,8 +46,8 @@
 img {
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: auto;
+    /* height: 100%;
+    width: auto; */
 }
 
 .timeline {
@@ -261,7 +262,7 @@ img {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -286,7 +287,7 @@ img {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgba(6, 6, 60, 0.87);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -430,4 +431,74 @@ img {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.nav {
+    /* position: relative; */
+}
+
+.card-img-top {
+    /* height: 10rem;
+    width: auto; */
+}
+
+
+/* .elegantshadow {
+    color: #d5d5d5;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #2c2c2c, 7px 7px 0px rgba(0, 0, 0, 0.2);
+} */
+
+.about-img {
+    position: fixed;
+}
+
+.text-muted {
+    text-align: center;
+}
+
+a {
+    color: rgba(5, 10, 47, 0.83);
+}
+
+.product-ctr {
+    margin-top: 50px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.contact-bg {
+    background-image: url("../img/contact.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }

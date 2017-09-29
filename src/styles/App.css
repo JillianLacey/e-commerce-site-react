@@ -18,13 +18,13 @@ p.small {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-  color: #18BC9C;
+  /* color: #18BC9C; */
   outline: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
@@ -76,6 +76,7 @@ section {
 section h2 {
   font-size: 3em;
   margin: 0;
+  margin-top: -65px;
 }
 
 section.success {
@@ -92,6 +93,8 @@ section.success {
   }
 }
 
+
+/* 
 .scroll-top {
   position: fixed;
   z-index: 1049;
@@ -120,7 +123,7 @@ section.success {
   text-transform: uppercase;
   border: none;
   background: #2C3E50;
-}
+} */
 
 #mainNav a:focus {
   outline: none;
@@ -162,8 +165,8 @@ section.success {
 
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
   color: white;
-  border-color: #18BC9C;
-  background-color: #18BC9C;
+  /* border-color: #18BC9C;
+  background-color: #18BC9C; */
 }
 
 @media (min-width: 992px) {
@@ -183,11 +186,11 @@ section.success {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: white;
     border-radius: 3px;
-    background: #18BC9C;
+    /* background: #18BC9C; */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: white;
-    background: #18BC9C;
+    /* background: #18BC9C; */
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
@@ -258,7 +261,7 @@ header.masthead .intro-text .skills {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(24, 188, 156, 0.9);
+  /* background: rgba(24, 188, 156, 0.9); */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {

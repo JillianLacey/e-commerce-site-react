@@ -10,21 +10,41 @@ export default class ProductLine extends Component {
 
         let products = productLineData.map((product) => {
             return (
-                <div key={product.id}>
-                    <NavLink activeClassName="selected" className="navlink" to={`${productline}/${product.id}`}>
-                        <p>{product.productTitle}</p>
-                        <img src={product.productImg} alt={product.productTitle} />
-                    </NavLink>
-                    <p>{product.productDescription}</p>
-                    <p>{product.price}</p>
+
+                <div key={product.id} className="col-lg-4 col-md-6 mb-4">
+                    <div className="card h-100">
+                        <NavLink activeClassName="selected" className="navlink" to={`${productline}/${product.id}`}>
+                            <img className="card-img-top" src={product.productImg} alt={product.productTitle} />
+                        </NavLink>
+                        <div className="card-body">
+                            <h4 className="card-title">
+                                <NavLink activeClassName="selected" className="navlink" to={`${productline}/${product.id}`}>
+                                    <p>{product.productTitle}</p>
+                                </NavLink>
+                            </h4>
+                        </div>
+
+                        <h5>{product.price}</h5>
+                        <div className="card-footer">
+                            <button>Details</button>
+                            <button>Add to Cart</button>
+
+                        </div>
+                    </div>
                 </div>
+
+
+
+
             )
         });
 
         return (
-            <div>
-                <Link className="btn btn-large btn-primary" to="/">Back To Home</Link>
-                {products}
+            <div className="container product-ctr">
+                <div className="row">
+                    {products}
+
+                </div>
             </div>
 
         );
