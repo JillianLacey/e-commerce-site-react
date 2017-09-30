@@ -26,7 +26,7 @@ export default class ProductLine extends Component {
                         </div>
 
                         <div className="card-footer">
-                            <button><NavLink activeClassName="selected" className="navlink" to={`${productline}/${product.id}`}>
+                            <button className="btn btn-secondary submit"><NavLink to={`${productline}/${product.id}`}>
                                 Details
                             </NavLink></button>
 

@@ -9,16 +9,26 @@ export default class ProductDetail extends Component {
         let product = productData[productline].find(item => item.id == id)
 
         return (
-            <div>
-                <div>
-                    <img src={product.fullSizeImg} />
-                    <p>{product.productTitle}</p>
-                    <p>{product.productDescription}</p>
-                    <p>{product.price}</p>
+            <div className="container">
+                <div className="row details-row">
+
+                    <div className="col-lg-6">
+                        <img className="full-size-img" src={product.fullSizeImg} />
+                    </div>
+
+                    <div className="col-lg-4">
+                        <h3 >{product.productTitle}</h3>
+                        <p>{product.productDescription}</p>
+                        <h3 className="my-3">Product Details</h3>
+                        <p>{product.price}</p>
+
+                        <Link className="btn btn-large btn-danger" to="/">Add to Cart</Link>
+                    </div>
+
                 </div>
-                <Link className="btn btn-large btn-danger" to="/">Back To Home</Link>
-                <Link className="btn btn-large btn-danger" to="/">Add to Cart</Link>
             </div>
+
+
         )
     }
 }

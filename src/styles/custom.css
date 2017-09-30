@@ -115,7 +115,7 @@ img {
     color: white;
     border: 7px solid #747371;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: rgb(17, 29, 70);
 }
 
 .timeline > li .timeline-image h4 {
@@ -288,7 +288,7 @@ img {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(6, 6, 60, 0.87);
+    background: rgba(17, 29, 70, 0.87);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -580,4 +580,16 @@ input {
     text-align: right;
     /* margin-left: 24px; */
     margin: -1px 20px 1px 0;
+}
+
+.details-row {
+    width: 88%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.full-size-img {
+    box-shadow: 0px 1px 8px rgba(97, 92, 92, 0.65);
+    border-radius: 3px;
 }

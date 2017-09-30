@@ -27,8 +27,8 @@ export default class About extends Component {
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>2011</h4>
-                                            <h4 className="subheading">It all began with an idea.</h4>
+                                            <h4>2011 - Canvas Is Born</h4>
+                                            <h4 className="subheading">Canvas is a curator of design, taste and style in the luxury lifestyle market, offering furniture, lighting, textiles, rugs, bathware, and other décor.</h4>
                                         </div>
 
                                     </div>
@@ -39,8 +39,8 @@ export default class About extends Component {
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>June 2012</h4>
-                                            <h4 className="subheading">An Agency is Born.</h4>
+                                            <h4>2012 - New Locations Added</h4>
+                                            <h4 className="subheading">Our collections of timeless, updated classics and authentic reproductions provide a unique point of view and an unmatched combination of inspired design and unparalleled quality. </h4>
                                         </div>
 
                                     </div>
@@ -53,17 +53,17 @@ export default class About extends Component {
                                     </div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>January 2014</h4>
-                                            <h4 className="subheading">Transition to Full Service</h4>
+                                            <h4>2014 - Product Line Expands</h4>
+                                            <h4 className="subheading">Each season brings a wealth of new ideas and we begin to sell outdoor, as well as baby & child and teen products.</h4>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li className="timeline-inverted">
                                     <div className="timeline-image">
-                                        <h4>Be Part
-                              <br />Of Our
-                              <br />Story!</h4>
+                                        <h4>Come
+                              <br />See Us
+                              <br />Soon!</h4>
                                     </div>
                                 </li>
                             </ul>
