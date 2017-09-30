@@ -22,12 +22,13 @@ export default class ProductLine extends Component {
                                     <p>{product.productTitle}</p>
                                 </NavLink>
                             </h4>
+                            <h5>{product.price}</h5>
                         </div>
 
-                        <h5>{product.price}</h5>
                         <div className="card-footer">
-                            <button>Details</button>
-                            <button>Add to Cart</button>
+                            <button><NavLink activeClassName="selected" className="navlink" to={`${productline}/${product.id}`}>
+                                Details
+                            </NavLink></button>
 
                         </div>
                     </div>

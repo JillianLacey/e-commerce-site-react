@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
     render() {
         return (
+
             <footer>
                 <hr /><br />
                 <div className="container">
@@ -34,7 +35,7 @@ export default class Footer extends Component {
                                     </a>
                                 </li>
                             </ul>
-                            <p className="copyright text-muted">Copyright &copy; CANVAS 2017</p>
+                            <h4 className="footer-ctr">Copyright &copy; CANVAS 2017</h4>
                         </div>
                     </div>
                 </div>

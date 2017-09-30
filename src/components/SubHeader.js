@@ -4,17 +4,17 @@ export default class SubHeader extends Component {
     render() {
         return (
             <div className="collapse storeCollapse" id="storeCollapse">
-                <nav style={{ backgroundColor: 'rgba(51, 51, 51, .9)' }} className="navbar navbar-toggleable-md navbar-light">
+                <nav style={{ backgroundColor: 'rgba(255, 139, 0, 0.51)' }} className="navbar navbar-toggleable-md navbar-light">
                     <div className="" id="navbarNav">
                         <ul style={{ color: '#fff' }} className="navbar-nav">
-                            <li className="nav-item active">
-                                <NavLink className="nav-link secNavLink" exact to="/art">Art</NavLink>
+                            <li className="nav-item">
+                                <NavLink className="nav-link" to="/homeware">Homeware</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link secNavLink" to="/tableware">Kitchen & Dining</NavLink>
+                                <NavLink className="nav-link" exact to="/art">Art & Accessories</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link secNavLink" to="/homeware">Homeware</NavLink>
+                                <NavLink className="nav-link " to="/tableware">Kitchen & Dining</NavLink>
                             </li>
                         </ul>
                     </div>

@@ -20,3 +20,6 @@ You should employee the use of <Link> components in at least three of the compon
 The 3 different category component should have pictures, descriptions and prices for items (at least 3 items per page). Store the data in a separate data folder and import it into the proper component.
 
 The final project should have a professional feel with attractive styling.
+
+
+///All site images from West Elm are for demonstration purposes...and because I love West Elm. 

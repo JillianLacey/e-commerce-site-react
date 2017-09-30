@@ -11,9 +11,9 @@ export default class Home extends Component {
             <div>
                 <header className="masthead hero">
                     <div className="container">
-                        <div className="intro-text">
-                            <span className="name elegantshadow ">Canvas</span>
-                            <span className="skills">Modern & Contemporary Furniture</span>
+                        <div className="intro-text elegantshadow">
+                            <span className="name">Canvas</span>
+                            <span className="skills">Contemporary Furniture</span>
                         </div>
                     </div>
                 </header>
@@ -46,16 +46,11 @@ export default class Home extends Component {
 
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/homeware">
-                                        <h4>Threads</h4>
-                                        <p className="text-muted">Home Furnishing</p>
+                                        <h4>Home Furnishing</h4>
+
                                     </NavLink>
                                 </div>
                             </div>
-
-
-
-
-
                             <div className="col-md-4 col-sm-6 portfolio-item">
                                 <NavLink className="portfolio-link" to="/art">
                                     <div className="portfolio-hover">
@@ -67,8 +62,7 @@ export default class Home extends Component {
                                 </NavLink>
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/homeware">
-                                        <h4>Adornment</h4>
-                                        <p className="text-muted">Art & Accessories</p>
+                                        <h4>Art & Accessories</h4>
                                     </NavLink>
                                 </div>
                             </div>
@@ -83,9 +77,7 @@ export default class Home extends Component {
                                 </NavLink>
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/tableware">
-
-                                        <h4>Palette</h4>
-                                        <p className="text-muted">Kitchen & Dining</p>
+                                        <h4>Kitchen & Dining</h4>
                                     </NavLink>
                                 </div>
                             </div>

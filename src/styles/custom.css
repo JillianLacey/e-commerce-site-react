@@ -113,7 +113,7 @@ img {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #747371;
     border-radius: 100%;
     background-color: #fed136;
 }
@@ -256,14 +256,15 @@ img {
     margin-top: 0;
 }
 
-#about {
-    background-image: url("../img/about.jpg");
-    height: 100%;
+#about, #contact {
+    /* background-image: url("../img/about.jpg"); */
+    background: linear-gradient(-180deg, #ded9d3, rgba(255, 250, 245, 0));
+    /* height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 #portfolio .portfolio-item {
@@ -387,6 +388,13 @@ img {
 
 .portfolio-modal .modal-content button {
     cursor: pointer;
+    border: none;
+    background: #e4e4e4;
+    font-family: inherit;
+    margin: 0 8px;
+    border-radius: 4px;
+    font-size: .9rem;
+    font-weight: 200;
 }
 
 .portfolio-modal .close-modal {
@@ -442,13 +450,16 @@ img {
     width: auto; */
 }
 
-
-/* .elegantshadow {
-    color: #d5d5d5;
-    background-color: #d5d5d5;
-    letter-spacing: .05em;
-    text-shadow: 4px 4px 0px #2c2c2c, 7px 7px 0px rgba(0, 0, 0, 0.2);
-} */
+.elegantshadow {
+    color: #e5e0da;
+    background-image: url('../img/home/paint.png');
+    background-repeat: no-repeat;
+    -ms-flex-pack: center;
+    background-position: center;
+    height: 11rem;
+    background-size: auto;
+    letter-spacing: .1rem;
+}
 
 .about-img {
     position: fixed;
@@ -491,9 +502,17 @@ a {
 
 button {
     cursor: pointer;
+    border: none;
+    background: #e4e4e4;
+    font-family: inherit;
+    margin: 0 8px;
+    border-radius: 4px;
+    font-size: .9rem;
+    font-weight: 200;
 }
 
-.contact-bg {
+
+/* .contact-bg {
     background-image: url("../img/contact.jpg");
     height: 100%;
     background-attachment: fixed;
@@ -501,4 +520,64 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+} */
+
+.footer-ctr {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: .08rem;
+}
+
+p, a, nav, input, textarea {
+    letter-spacing: .08rem;
+    font-weight: 200;
+}
+
+.navlink p {
+    padding-top: 10px;
+}
+
+.timeline:before {
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: ''; */
+    background-color: #747371;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #747371;
+}
+
+.floating-label-form-group input, .floating-label-form-group textarea {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+.contact {
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+}
+
+.submit {
+    /* font-size: 1.2rem; */
+    padding: .3rem 0.9rem;
+    margin: 0;
+}
+
+.card-body {
+    text-align: right;
+    /* margin-left: 24px; */
+    margin: -1px 20px 1px 0;
 }

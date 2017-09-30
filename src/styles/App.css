@@ -24,7 +24,7 @@ a, a.active, a:active, a:focus, a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -215,11 +215,13 @@ header.masthead img {
 }
 
 header.masthead .intro-text .name {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   font-weight: 700;
   display: block;
   text-transform: uppercase;
+  /* color: white; */
 }
 
 header.masthead .intro-text .skills {
@@ -233,7 +235,8 @@ header.masthead .intro-text .skills {
     padding-bottom: 240px;
   }
   header.masthead .intro-text .name {
-    font-size: 4.75em;
+    font-size: 4em;
+    padding-top: 1rem;
   }
   header.masthead .intro-text .skills {
     font-size: 1.75em;
@@ -261,6 +264,7 @@ header.masthead .intro-text .skills {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
+  font-weight: 200;
   /* background: rgba(24, 188, 156, 0.9); */
 }
 
