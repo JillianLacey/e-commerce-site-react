@@ -18,7 +18,6 @@ p.small {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-  /* color: #18BC9C; */
   outline: none;
   text-decoration: none;
 }
@@ -94,38 +93,6 @@ section.success {
   }
 }
 
-
-/* 
-.scroll-top {
-  position: fixed;
-  z-index: 1049;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;
-  height: 50px;
-}
-
-.scroll-top .btn {
-  font-size: 16px;
-  line-height: 28px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 100%;
-}
-
-.scroll-top .btn:focus {
-  outline: none;
-}
-
-#mainNav {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  background: #2C3E50;
-} */
-
 #mainNav a:focus {
   outline: none;
 }
@@ -166,8 +133,6 @@ section.success {
 
 #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
   color: white;
-  /* border-color: #18BC9C;
-  background-color: #18BC9C; */
 }
 
 @media (min-width: 992px) {
@@ -187,11 +152,9 @@ section.success {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: white;
     border-radius: 3px;
-    /* background: #18BC9C; */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: white;
-    /* background: #18BC9C; */
   }
   #mainNav.navbar-shrink {
     padding-top: 10px;
@@ -207,7 +170,6 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  /* background: #18BC9C; */
 }
 
 header.masthead img {
@@ -216,13 +178,11 @@ header.masthead img {
 }
 
 header.masthead .intro-text .name {
-  /* font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   font-weight: 700;
   display: block;
   text-transform: uppercase;
-  /* color: white; */
 }
 
 header.masthead .intro-text .skills {
@@ -266,7 +226,6 @@ header.masthead .intro-text .skills {
   transition: all ease 0.5s;
   opacity: 0;
   font-weight: 200;
-  /* background: rgba(24, 188, 156, 0.9); */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {

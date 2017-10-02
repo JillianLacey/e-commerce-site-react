@@ -6,7 +6,6 @@ import About from './container/About';
 import Contact from './container/Contact';
 import ProductLine from './container/ProductLine';
 import ProductDetail from './components/ProductDetail';
-// import Cart from './container/Cart';
 import './styles/App.css';
 import './styles/custom.css';
 
@@ -20,7 +19,6 @@ class App extends Component {
 
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
-
             <Route path="/:productline/:id" component={ProductDetail} />
             <Route path="/:productline" component={ProductLine} />
             <Route exact path="/" component={Home} />

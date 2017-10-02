@@ -6,7 +6,6 @@
 .container {
     width: 100%;
     padding: 0;
-    /* margin: 0; */
     margin-bottom: 80px;
 }
 
@@ -20,17 +19,7 @@
     overflow: hidden;
 }
 
-
-/* .gift-thumb {
-    background-image: url("../img/book.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .portfolio-item {
-    /* background-image: url("../img/book.jpg"); */
     background-size: cover;
     height: 250px;
 }
@@ -38,7 +27,6 @@
 .image-cropper {
     width: 200px;
     height: 200px;
-    /* position: relative; */
     overflow: hidden;
     border-radius: 50%;
 }
@@ -46,9 +34,10 @@
 img {
     display: inline;
     margin: 0 auto;
-    /* height: 100%;
-    width: auto; */
 }
+
+
+/* Timeline Styles*/
 
 .timeline {
     position: relative;
@@ -257,15 +246,11 @@ img {
 }
 
 #about, #contact {
-    /* background-image: url("../img/about.jpg"); */
     background: linear-gradient(-180deg, #ded9d3, rgba(255, 250, 245, 0));
-    /* height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden; */
 }
+
+
+/*Portfolio Styles*/
 
 #portfolio .portfolio-item {
     right: 0;
@@ -344,6 +329,8 @@ img {
     }
 }
 
+
+/* 
 .portfolio-modal .modal-dialog {
     max-width: none;
     height: 100%;
@@ -409,27 +396,30 @@ img {
 
 .portfolio-modal .close-modal:hover {
     opacity: 0.3;
-}
+} */
 
+
+/* 
 .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
+
     z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    /* IE 9 */
+
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #222222;
-}
+} */
 
-.portfolio-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
+
+/* .portfolio-modal .close-modal .lr .rl {
+
     z-index: 1052;
     width: 1px;
     height: 75px;
-    /* IE 9 */
+
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -439,16 +429,7 @@ img {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
-}
-
-.nav {
-    /* position: relative; */
-}
-
-.card-img-top {
-    /* height: 10rem;
-    width: auto; */
-}
+} */
 
 .elegantshadow {
     color: #e5e0da;
@@ -511,17 +492,6 @@ button {
     font-weight: 200;
 }
 
-
-/* .contact-bg {
-    background-image: url("../img/contact.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-} */
-
 .footer-ctr {
     text-align: center;
     color: black;
@@ -539,13 +509,6 @@ p, a, nav, input, textarea {
 }
 
 .timeline:before {
-    /* position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    content: ''; */
     background-color: #747371;
 }
 
@@ -571,14 +534,12 @@ input {
 }
 
 .submit {
-    /* font-size: 1.2rem; */
     padding: .3rem 0.9rem;
     margin: 0;
 }
 
 .card-body {
     text-align: right;
-    /* margin-left: 24px; */
     margin: -1px 20px 1px 0;
 }
 
@@ -592,4 +553,68 @@ input {
 .full-size-img {
     box-shadow: 0px 1px 8px rgba(97, 92, 92, 0.65);
     border-radius: 3px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .1rem .7rem;
+    font-weight: 200;
+    text-align: inherit;
+    white-space: nowrap;
+    background: 0 0;
+    border: 0;
+    z-index: -1;
+    border-top: none;
+}
+
+.dropdown-item:hover {
+    background: #e5e0da;
+    color: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #292b2c;
+    text-align: left;
+    list-style: none;
+    background-color: #f7f7f7;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .1rem;
+}
+
+.dropdown, .dropup {
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* responsive styles */
+
+@media (max-width: 545px) {
+    .elegantshadow {
+        height: 7rem;
+        background-size: cover;
+        padding: 1rem;
+    }
+    .nav-link h4 {
+        display: none;
+    }
+    .full-size-img {
+        height: 50%;
+    }
+    .container {
+        padding: 0 20px;
+    }
 }

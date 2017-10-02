@@ -12,7 +12,7 @@ export default class ProductDetail extends Component {
             <div className="container">
                 <div className="row details-row">
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-6">
                         <img className="full-size-img" src={product.fullSizeImg} />
                     </div>
 

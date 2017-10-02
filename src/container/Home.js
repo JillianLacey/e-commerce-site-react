@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-// import homeHeader from '../img/book.jpg';
 import tableWare from '../img/home/tableware.jpg';
 import art from '../img/home/art.jpg';
 import home from '../img/home/home.jpg';
@@ -18,9 +17,6 @@ export default class Home extends Component {
                     </div>
                 </header>
 
-
-
-
                 <section className="bg-light" id="portfolio">
                     <div className="container">
                         <div className="row">
@@ -29,10 +25,6 @@ export default class Home extends Component {
 
                             </div>
                         </div>
-
-
-
-
                         <div className="row">
                             <div className="col-md-4 col-sm-6 portfolio-item">
                                 <NavLink className="portfolio-link" to="/homeware">
@@ -41,13 +33,12 @@ export default class Home extends Component {
                                             <i className="fa fa-angle-double-up fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src={home} alt="boohoo" className="img-fluid" />
+                                    <img src={home} alt="home" className="img-fluid" />
                                 </NavLink>
 
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/homeware">
                                         <h4>Home Furnishing</h4>
-
                                     </NavLink>
                                 </div>
                             </div>
@@ -58,7 +49,7 @@ export default class Home extends Component {
                                             <i className="fa fa-angle-double-up fa-3x"></i>
                                         </div>
                                     </div>
-                                    <img src={art} alt="boohoo" className="img-fluid" />
+                                    <img src={art} alt="art" className="img-fluid" />
                                 </NavLink>
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/homeware">
@@ -73,7 +64,7 @@ export default class Home extends Component {
                                     </div>
                                 </div>
 
-                                    <img src={tableWare} alt="boohoo" className="img-fluid" />
+                                    <img src={tableWare} alt="tableware" className="img-fluid" />
                                 </NavLink>
                                 <div className="portfolio-caption">
                                     <NavLink className="nav-link" to="/tableware">
